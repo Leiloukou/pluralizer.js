@@ -1,6 +1,6 @@
 {
 	"name": "pluralizer.js",
-	"version": "3.2.0",
+	"version": "3.2.1",
 	"main": "./dist/index.js",
 	"directories": {
 		"lib": "dist"
