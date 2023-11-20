@@ -1,0 +1,33 @@
+{
+	"name": "pluralizer.js",
+	"version": "3.2.0",
+	"main": "./dist/index.js",
+	"directories": {
+		"lib": "dist"
+	},
+	"scripts": {
+		"dev": "tsc --watch",
+		"build": "tsc --declaration",
+		"test": "vitest --coverage"
+	},
+	"keywords": [
+		"plural",
+		"pluralize",
+		"swap",
+		"international",
+		"internationalization",
+		"i11n",
+		"format",
+		"numbers",
+		"strings",
+		"typescript"
+	],
+	"author": "Jacob Leger",
+	"license": "ISC",
+	"description": "Pluralize anything with this library",
+	"devDependencies": {
+		"@vitest/coverage-v8": "^0.34.3",
+		"typescript": "^5.2.2",
+		"vitest": "^0.34.3"
+	}
+}
