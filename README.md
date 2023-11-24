@@ -2,7 +2,7 @@
 
 Pluralizer.js is a simple zero-dependency lightweight type-safe pluralizer library for any project!
 
-**⭐ Please give this project a star if you like it, so others can see, use, and contribute to it!**
+**⭐ Please [give this project a star](https://github.com/Leiloukou/pluralizer.js) if you like it, so others can see, use, and contribute to it!**
 
 ## 📦 Installation
 
