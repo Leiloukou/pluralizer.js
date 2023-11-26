@@ -2,6 +2,10 @@
 	"name": "pluralizer.js",
 	"version": "3.2.1",
 	"main": "./dist/index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/leiloukou/pluralizer.js.git"
+  	}
 	"directories": {
 		"lib": "dist"
 	},
