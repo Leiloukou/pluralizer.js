@@ -1,7 +1,7 @@
 # ✏️ Pluralizer.js
 
 ![NPM Package Version](https://img.shields.io/npm/v/pluralizer.js) ![Code coverage badge](https://img.shields.io/badge/Code%20coverage-100%25-forest?logo=vitest&logoColor=green)
- ![Software Liscense](https://img.shields.io/npm/l/pluralizer.js) ![GitHub Repo stars](https://img.shields.io/github/stars/leiloukou/pluralizer.js) ![GitHub issues](https://img.shields.io/github/issues-raw/leiloukou/pluralizer.js)
+ ![Software License](https://img.shields.io/npm/l/pluralizer.js) ![GitHub Repo stars](https://img.shields.io/github/stars/leiloukou/pluralizer.js) ![GitHub issues](https://img.shields.io/github/issues-raw/leiloukou/pluralizer.js)
 
 Pluralizer.js is a simple zero-dependency lightweight type-safe pluralizer library for any project!
 
@@ -11,7 +11,6 @@ Pluralizer.js is a simple zero-dependency lightweight type-safe pluralizer libra
 
 You can install `pluralizer.js` with `NPM`, `Yarn`, or `PNPM`.
 ```bash
-
 # NPM
 $ npm install --save pluralizer.js
 # Yarn
@@ -20,7 +19,7 @@ $ yarn add pluralizer.js
 $ pnpm install --save pluralizer.js
 ```
 
-The output should look something like this:
+The output should look something like this (at least with `NPM`):
 
 ```bash
 $ npm install --save pluralizer.js

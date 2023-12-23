@@ -27,7 +27,7 @@
 		"typescript"
 	],
 	"author": "Jacob Leger",
-	"license": "MIT",
+	"license": "./LICENSE",
 	"description": "Pluralize anything with this library",
 	"devDependencies": {
 		"@vitest/coverage-v8": "^0.34.3",
