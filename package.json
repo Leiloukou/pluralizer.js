@@ -17,7 +17,8 @@
         "test": "vitest --coverage",
         "lint-check": "tsc",
         "format-check": "npx prettier . --check",
-        "format-fix": "npx prettier . --write"
+        "format-fix": "npx prettier . --write",
+        "release": "npm run build && npm publish"
     },
     "keywords": [
         "plural",
