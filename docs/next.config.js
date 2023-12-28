@@ -1,8 +1,8 @@
-const withMDX = require('@next/mdx')();
+const withMDX = require("@next/mdx")();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	pageExtensions: ['tsx', 'mdx', 'md'],
+    pageExtensions: ["tsx", "mdx", "md"],
 };
 
 module.exports = withMDX(nextConfig);

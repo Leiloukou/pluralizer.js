@@ -1,65 +1,67 @@
 /** @format */
 
 :root {
-	font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-	font-size: 16px;
-	line-height: 24px;
-	font-weight: 400;
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
 
-	color-scheme: light dark;
-	color: #ffffffde;
-	background-color: #242424;
+    color-scheme: light dark;
+    color: #ffffffde;
+    background-color: #242424;
 
-	font-synthesis: none;
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-text-size-adjust: 100%;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
-	margin: 0;
-	display: flex;
-	place-items: center;
-	min-width: 320px;
-	min-height: 100vh;
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
 }
 
 h1 {
-	font-size: 3.2em;
-	line-height: 1.1;
+    font-size: 3.2em;
+    line-height: 1.1;
 }
 
 .card {
-	padding: 2em;
+    padding: 2em;
 }
 
 #app {
-	max-width: 1280px;
-	margin: 0 auto;
-	padding: 2rem;
-	text-align: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
 }
 
 button,
 .button,
 input {
-	border: none;
-	border-radius: 8px;
-	outline: 1.75px solid transparent;
-	padding: 0.6em 1.2em;
-	font-size: 1em;
-	font-weight: 500;
-	font-family: inherit;
-	background-color: #1a1a1a;
-	cursor: pointer;
-	transition: outline-color 0.25s, outline-width 0.25s;
+    border: none;
+    border-radius: 8px;
+    outline: 1.75px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition:
+        outline-color 0.25s,
+        outline-width 0.25s;
 }
 
 button:not(.no-hocus):hover,
 .button:not(.no-hocus):hover,
 input:not(.no-hocus):hover {
-	outline-color: #646cff;
+    outline-color: #646cff;
 }
 button:not(.no-hocus):focus,
 .button:not(.no-hocus):focus,
@@ -67,25 +69,25 @@ button:not(.no-hocus):focus-visible,
 .button:not(.no-hocus):focus-visible,
 input:not(.no-hocus):focus,
 input:not(.no-hocus):focus-visible {
-	outline-width: 2.75px;
-	outline-color: #747bff;
+    outline-width: 2.75px;
+    outline-color: #747bff;
 }
 
 @media (prefers-color-scheme: light) {
-	::selection {
-		background-color: #747bff;
-		color: #eee;
-	}
+    ::selection {
+        background-color: #747bff;
+        color: #eee;
+    }
 
-	:root {
-		color: #213547;
-		background-color: #eee;
-	}
+    :root {
+        color: #213547;
+        background-color: #eee;
+    }
 
-	button,
-	.button,
-	input {
-		background-color: #e1e1f9;
-		color: inherit;
-	}
+    button,
+    .button,
+    input {
+        background-color: #e1e1f9;
+        color: inherit;
+    }
 }
