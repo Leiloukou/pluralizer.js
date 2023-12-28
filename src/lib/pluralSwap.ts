@@ -2,7 +2,7 @@
 
 /**
  * @example ```typescript import { pluralSwap, _FP } from 'pluralizer.js'
- * 
+ *
  * const numberOfCats = 3
  * const myPluralizedString = `I have ${numberOfCats} ${pluralSwap('cat', 'cats', numberOfCats)}!`
  *
@@ -10,6 +10,6 @@
  * ```
  */
 const pluralSwap = (singular: string, plural: string, data: number) =>
-	Math.abs(data) !== 1 ? plural : singular;
+    Math.abs(data) !== 1 ? plural : singular;
 
-export default pluralSwap
+export default pluralSwap;

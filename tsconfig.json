@@ -1,16 +1,16 @@
 {
-	"exclude": ["./test-app/**/*", "./src/**/*.test.ts"],
-	"include": ["./src/*.ts"],
-	"compilerOptions": {
-		"outDir": "dist",
-		"target": "ES2015",
-		"module": "commonjs",
-		"strict": true,
-		"esModuleInterop": true,
-		// "skipLibCheck": true,
-		"forceConsistentCasingInFileNames": true,
-    "noUncheckedIndexedAccess": true
-	},
-	"$schema": "https://json.schemastore.org/tsconfig",
-	"display": "Recommended"
+    "exclude": ["./test-app/**/*", "./src/**/*.test.ts"],
+    "include": ["./src/*.ts"],
+    "compilerOptions": {
+        "outDir": "dist",
+        "target": "ES2015",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        // "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "noUncheckedIndexedAccess": true
+    },
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Recommended"
 }

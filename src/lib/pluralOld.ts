@@ -1,5 +1,5 @@
-import Pluralizer from '../types';
-import pluralize from '../helpers/pluralize';
+import Pluralizer from "../types";
+import pluralize from "../helpers/pluralize";
 
 /**
  * const numberOfCats = 3
@@ -11,9 +11,9 @@ import pluralize from '../helpers/pluralize';
  * @example ```typescript import { plural, _FP } from 'pluralizer.js'
  */
 const pluralOld = (
-	strings: TemplateStringsArray,
-	pluralizer: (string | Pluralizer)[],
-	...values: any[]
-) => values.unshift('') && pluralize(strings, values, pluralizer);
+    strings: TemplateStringsArray,
+    pluralizer: (string | Pluralizer)[],
+    ...values: any[]
+) => values.unshift("") && pluralize(strings, values, pluralizer);
 
 export default pluralOld;
